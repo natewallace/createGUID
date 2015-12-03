@@ -1,0 +1,33 @@
+{
+  "name": "createGUID",
+  "displayName": "createGUID",
+  "description": "A command that creates a new GUID.",
+  "version": "0.0.1",
+  "publisher": "nwallace",
+  "license": "UNLICENSED",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.createGUID"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.createGUID",
+        "title": "Create GUID"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vscode": "0.10.x"
+  },
+  "dependencies": {
+    "copy-paste": "^1.1.4",
+    "node-uuid": "^1.4.7"
+  }
+}
