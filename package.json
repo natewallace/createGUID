@@ -1,8 +1,8 @@
 {
   "name": "createGUID",
-  "displayName": "createGUID",
+  "displayName": "Create GUID",
   "description": "A command that creates a new GUID.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "nwallace",
   "license": "UNLICENSED",
   "repository": {
@@ -12,6 +12,10 @@
   "engines": {
     "vscode": "^0.10.1"
   },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+		"color": "#99C3D7"
+	},
   "categories": [
     "Other"
   ],
