@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "publisher": "nwallace",
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natewallace/createGUID.git"
+  },
   "engines": {
     "vscode": "^0.10.1"
   },
