@@ -2,7 +2,7 @@
   "name": "createGUID",
   "displayName": "Create GUID",
   "description": "A command that creates a new GUID.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "nwallace",
   "license": "UNLICENSED",
   "repository": {
@@ -23,6 +23,10 @@
     "onCommand:extension.createGUID"
   ],
   "main": "./extension",
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
   "contributes": {
     "commands": [
       {
